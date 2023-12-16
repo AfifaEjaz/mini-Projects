@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    
+</head>
+
+<body>
+    <div class="box">
+        
+
+        <table>
+            <tr>
+                <th colspan="4"><input type="text" name="" id="input"></th>
+            </tr>
+
+            <tr>
+                <td colspan="2"><button onclick="clearResult()">C</button></td>
+                <td><button onclick="removeNum()">Del</button></td>
+                <td><button onclick="getValue('%')">%</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getValue('/')">/</button></td>
+                <td><button onclick="getValue('9')">9</button></td>
+                <td><button onclick="getValue(8)">8</button></td>
+                <td><button onclick="getValue(7)">7</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getValue('*')">x</button></td>
+                <td><button onclick="getValue(6)">6</button></td>
+                <td><button onclick="getValue(5)">5</button></td>
+                <td><button onclick="getValue(4)">4</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getValue('-')">-</button></td>
+                <td><button onclick="getValue(3)">3</button></td>
+                <td><button onclick="getValue(2)">2</button></td>
+                <td><button onclick="getValue(1)">1</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getValue('+')">+</button></td>
+                <td><button onclick="getValue(0)">0</button></td>
+                <td><button onclick="getValue('.')">.</button></td>
+                <td><button onclick="getResult('=')">=</button></td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+
+</html>

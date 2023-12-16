@@ -1,0 +1,54 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: rgb(229, 186, 130);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(67, 187, 147);
+    height: 20%;
+    width: 30%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.clock span{
+    font-size: 50px;
+}
+
+.clock span::after{
+    font-size: 10px;
+    position: absolute;
+    bottom: 20px;
+    
+    
+}
+
+#hrs::after{
+    content: "HOURS";
+    left: 28%;
+}
+#min::after{
+    content: "MINS";
+    left: 47%;
+
+}
+#sec::after{
+    content: "SEC";
+    left: 65%;
+
+}
